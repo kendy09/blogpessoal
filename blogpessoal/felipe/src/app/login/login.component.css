@@ -1,0 +1,19 @@
+/*   
+#bg-img{
+    background-image: url('https://images.hdqwalls.com/wallpapers/synthwave-cityscape-4k-6x.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  } */
+  body{
+    background-image: url('https://images.hdqwalls.com/wallpapers/synthwave-cityscape-4k-6x.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 100vh;
+  }
+  .login-margem{
+    background-color: white;
+    width: 400px;
+    padding: 30px 30px;
+  }
