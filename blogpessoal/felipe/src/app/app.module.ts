@@ -11,6 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { HttpClientModule } from '@angular/common/http';
+import { TemaComponent } from './tema/tema.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
     RodapeComponent,
     LoginComponent,
     CadastrarComponent,
-    InicioComponent
+    InicioComponent,
+    TemaComponent
   ],
   imports: [
     BrowserModule,
