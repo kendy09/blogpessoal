@@ -1,4 +1,3 @@
-import{Postagem} from"./Postagem"
 export class UsuarioLogin{
     public id: number;
     public nome: string;
