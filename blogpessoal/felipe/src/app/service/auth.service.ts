@@ -18,6 +18,9 @@ export class AuthService {
     cadastrar (usuario:Usuario): Observable<Usuario>{
       return this.http.post<Usuario>('https://blogfelipeho.herokuapp.com/usuarios/cadastrar',usuario);
     }
+    getByIdUsuario(id: number):Observable<Usuario>{
+      return this.http.get<Usuario>(`https://blogfelipeho.herokuapp.com/usuarios/${id}`)
+    }
       logado(){
         let ok:boolean=false;
         
